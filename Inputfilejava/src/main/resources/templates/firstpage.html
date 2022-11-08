@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${title}"></title>
+</head>
+<body>
+<form th:action="@{/send}" method="post">
+<h1>Login Form</h1>
+<P>Name :<input type="text"></P>
+<p>Age :<input type="text"></p>
+<p>From :<input type="text"></p>
+<p>Gmaol Address :<input type="email"></p>
+<button type="submit"> Sumbit :</button>
+<button type="reset"> Reset :</button>
+
+
+
+
+</form>
+
+</body>
+</html>

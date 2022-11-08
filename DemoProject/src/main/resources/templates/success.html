@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title  th:text="${title}"></title>
+</head>
+<body>
+<h1>Result Success</h1>
+
+<p>Name :<span th:text="${data.name}"></span> </p>
+
+<p>Age :<span th:text="${data.age}"></span>  </p>
+
+<p>Email :<span th:text="${data.email}"></span>  </p>
+
+<p>Password :<span th:text="${data.password}"></span>  </p>
+
+   <a href="/">Submit another message</a>
+</body>
+</html>
